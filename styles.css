@@ -1,0 +1,150 @@
+body{
+   background-color: rgba(137, 43, 226, 0.56);
+   border-radius: 20px;
+   
+}
+.main-container{
+ width:100%;
+ display:flex;
+}
+.container{
+   width:30%;
+   height:720px;
+   background-color: white;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
+   margin:5px;
+   
+}
+img{
+   width:70px;
+   height:70px;
+   border-radius: 50%;
+   margin-left: 50px;
+   margin-top: 30px;
+   border: 2px  solid black;
+}
+hr{
+   height:3px;
+   background-color:rgba(137, 43, 226, 0.399);
+   margin-left: 50px;
+   margin-right: 50px;
+}
+p{
+   position:absolute;
+   top:5%;
+   left:10%;
+   
+}
+h1,h2{
+   color:white;
+   text-align: center;
+  
+
+}
+#myinput{
+   width:700px;
+   height:40px;
+   border-radius: 15px;
+   margin-bottom: 50px;
+   margin-top: 100px;
+   margin-left: 150px;
+   font-size: medium;
+
+}
+input{
+   width:700px;
+   height:40px;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-bottom: 20px;
+   margin-left: 150px;
+}
+li[disabled]{
+ color: gray;
+}
+.task{
+   position:absolute;
+   top:30%;
+   left:10%;
+}
+ul{
+   position:absolute;
+   top:35%;
+   left:10%;
+}
+ .scheduled-task{
+   position: absolute;
+   top:55%;
+   left:10%;
+}
+.settings{
+   position: absolute;
+   top:65%;
+   left:10%;
+}
+.fa-cog{
+   position: absolute;
+   left:8%;
+   top:67%;
+}
+.fa-calendar-check-o{
+   position: absolute;
+   left:8%;
+   top:32%;
+}
+.fa-calendar{
+   position: absolute;
+   left:8%;
+   top:57%;
+}
+.fa-calendar-o{
+   position: absolute;
+   left:85%;
+   top:31%;
+}
+.fa-clock-o{
+   position: absolute;
+   left:83%;
+   top:31%;
+   
+}
+.fa-calendar,.fa-cog[disabled]{
+   color: gray;
+}
+.workout{
+   width: 700px;
+   height: 30px;
+   position: absolute;
+   left:45%;
+   top:40%;
+}
+.meeting{
+   width: 700px;
+   height: 30px;
+   position: absolute;
+   left:45%;
+   top:49%;
+}
+.project{
+   width: 700px;
+   height: 30px;
+   position: absolute;
+   left:45%;
+   top:58%;
+}
+.read{
+   width: 700px;
+   height: 30px;
+   position: absolute;
+   left:45%;
+   top:66%;
+}
+.right{
+   position:absolute;
+   
+   left:80%;
+  }
+  
