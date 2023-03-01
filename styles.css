@@ -1,11 +1,11 @@
 body{
-   background-color: rgba(137, 43, 226, 0.56);
+   background-color: rgb(137, 43, 226);
    border-radius: 20px;
-   
 }
 .main-container{
  width:100%;
  display:flex;
+ position: relative;
 }
 .container{
    width:30%;
@@ -25,8 +25,8 @@ img{
    border: 2px  solid black;
 }
 hr{
-   height:3px;
-   background-color:rgba(137, 43, 226, 0.399);
+   height:5px;
+   background-color:rgb(137, 43, 226);
    margin-left: 50px;
    margin-right: 50px;
 }
@@ -74,8 +74,28 @@ ul{
    position:absolute;
    top:35%;
    left:10%;
+   list-style-type: none;
 }
- .scheduled-task{
+li{
+   padding-bottom: 10px;
+}
+.pink{
+   color:pink;
+   font-size:15px;
+}
+.yellow{
+   color:yellow;
+   font-size:15px;
+
+}
+.blue{
+   color:blue;
+   font-size:15px;
+}
+.gray{
+   font-size:15px;
+}
+.scheduled-task{
    position: absolute;
    top:55%;
    left:10%;
@@ -103,12 +123,12 @@ ul{
 .fa-calendar-o{
    position: absolute;
    left:85%;
-   top:31%;
+   top:35%;
 }
 .fa-clock-o{
    position: absolute;
    left:83%;
-   top:31%;
+   top:35%;
    
 }
 .fa-calendar,.fa-cog[disabled]{
@@ -143,8 +163,25 @@ ul{
    top:66%;
 }
 .right{
-   position:absolute;
+   float:right;
    
-   left:80%;
   }
+
+.main-body > .pink{
+  position:relative;
+  top:18%;
+  left:20%;
+  }
+.main-body >.yellow{
+   position:relative;
+   top:18%;
+   left:22%;
+   
+}
+.main-body > .blue{
+      position:relative;
+      top:18%;
+      left:24%;
+   }
+        
   
